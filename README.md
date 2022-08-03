@@ -5,9 +5,35 @@
 A Colorado Board of Elections employee, Tom, asked for help to complete the election audit of a recent Congressional election. The purpose of this election audit analysis is to find important result information (listed below):  
 
 **Election-Audit Results:**
-    * # of votes cast in this congressional election 
-    * Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-    * Which county had the largest number of votes?
-    * Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-    * Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-3. Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+<img width="462" alt="Election_Results" src="https://user-images.githubusercontent.com/106992995/182696571-fc71b28b-d07b-4092-8b4d-0a1f71571b3e.png">
+
+ From the screenshot above, there were 369,711 votes cast (total)
+ 
+ The candidates were: 
+ 
+ Charles Casper Stockham, receiving 23% of the vote with 85,213 votes
+ Diana DeGette, receiving 73.8% of the vote with 272,892 votes
+ Raymon Anthony Doane, receiving 3.1% of the vote with 11,606 votes
+ 
+ **Winner** = Diana DeGette receiving 73.8% of the vote with 272,892 votes
+ 
+ 
+Largest # of votes = Denver, receiving 82.8% of the vote with 306,055 votes
+ 
+ 
+**Election-Audit Summary:**
+This script can be used—with some modifications—for any election by adding in more headers, so the txt.file is easier to read. For example I've added in the "Candidates:" header so that it wouln't be a mystery section of information. 
+
+Here's the "Candidates:" edit made within the code:
+
+<img width="586" alt="my_election_VS" src="https://user-images.githubusercontent.com/106992995/182702769-079b772b-00af-4f61-aa5a-f22e62263ca0.png">
+
+
+Here's the "Candidates:" txt.file output: 
+
+<img width="469" alt="My_election_results" src="https://user-images.githubusercontent.com/106992995/182701478-a432ca2c-a40b-41bc-976a-bb0d506bb124.png">
+
+
+
+ I noticed the f-strings were hard to read as a whole from one glance, so another suggestion would be to condense some of the loops and print all of the information at the end of the script (but still being sent to the txt.file) so that it's not split up within each loop.
