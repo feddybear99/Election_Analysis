@@ -6,26 +6,31 @@ A Colorado Board of Elections employee, Tom, asked for help to complete the elec
 
 **Election-Audit Results:**
 
-<img width="462" alt="Election_Results" src="https://user-images.githubusercontent.com/106992995/182696571-fc71b28b-d07b-4092-8b4d-0a1f71571b3e.png">
+<img width="293" alt="Election_res" src="https://user-images.githubusercontent.com/106992995/182706518-33ebea63-77ae-4ed4-84a5-bc98e67e0bde.png">
 
  From the screenshot above, there were 369,711 votes cast (total)
  
  The candidates were: 
  
- Charles Casper Stockham, receiving 23% of the vote with 85,213 votes
- Diana DeGette, receiving 73.8% of the vote with 272,892 votes
- Raymon Anthony Doane, receiving 3.1% of the vote with 11,606 votes
+ Charles Casper Stockham: receiving 23% of the vote with 85,213 votes
  
- **Winner** = Diana DeGette receiving 73.8% of the vote with 272,892 votes
+ Diana DeGette: receiving 73.8% of the vote with 272,892 votes
+ 
+ Raymon Anthony Doane: receiving 3.1% of the vote with 11,606 votes
  
  
-Largest # of votes = Denver, receiving 82.8% of the vote with 306,055 votes
+**Winner**:
+ Diana DeGette receiving 73.8% of the vote with 272,892 votes
+ 
+ 
+**Largest # of votes**:
+ Denver receiving 82.8% of the vote with 306,055 votes
  
  
 **Election-Audit Summary:**
-This script can be used—with some modifications—for any election by adding in more headers, so the txt.file is easier to read. For example I've added in the "Candidates:" header so that it wouln't be a mystery section of information. 
+ This script can be used—with some modifications—for any election by adding in more headers, so the txt.file is easier to read. For example I've added in the "Candidates:" header so that it wouln't be a mystery section of information. 
 
-Here's the "Candidates:" edit made within the code:
+Here's the "Candidates:" edit I made within the code:
 
 <img width="586" alt="my_election_VS" src="https://user-images.githubusercontent.com/106992995/182702769-079b772b-00af-4f61-aa5a-f22e62263ca0.png">
 
